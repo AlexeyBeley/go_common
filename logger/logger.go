@@ -4,6 +4,10 @@ import (
 	"fmt"
 )
 
+type LoggerInterface interface {
+	r(string, ...any)
+}
+
 type Logger struct {
 }
 
